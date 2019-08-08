@@ -1,6 +1,8 @@
-- 分布式
-     - Storm系列
-         - [(一)环境搭建安装](storm/storm01.md)
-     - hadoop系列
-         - [(一)伪分布式搭建](hadoop/hadoop01.md)
-     - [什么是Zookeeper](distributed/Zookeeper.md)
+- [framework](framework/readme.md)
+     - util
+         - [common](framework/util/common.md)
+     - integrate
+         - [job](framework/integrate/job.md)
+         - [redis](framework/integrate/redis.md)
+         - [rocketmq](framework/integrate/rocketmq.md)
+         - [validator](framework/integrate/validator.md)
