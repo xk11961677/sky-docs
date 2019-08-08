@@ -16,7 +16,8 @@ Java知识学习总结
 - [skycloud-service](https://github.com/xk11961677/skycloud-service): skycloud 微服务业务层
 
 ## 开源项目文档
-- [framework](docs/framework/framework.md)
+- [framework](framework/framework.md)
+- [skycloud-base](skycloud/skycloud.md)
 
 ## 数据结构与算法
 - [algorithm](https://github.com/xk11961677/algorithm)
