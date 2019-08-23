@@ -7,12 +7,12 @@ ssh-keygen -t rsa -C "liwei.shen@company-core.com"
 # 将公钥分别放入git与gitlab的setting选项
 
 # 增加config文件 在~/.ssh目录下
-####### github
+####### github</br>
 Host github</br>
 HostName github.com</br>
 User git</br>
 IdentityFile ~/.ssh/id_rsa_github</br>
-####### gitlab(公司)
+####### gitlab(公司)</br>
 Host gitlab</br>
 HostName code.doooly.cn</br>
 User git</br>
