@@ -19,8 +19,8 @@ Java知识学习总结
 - [skycloud-service](https://github.com/xk11961677/skycloud-service): skycloud 微服务业务层
 
 ## 开源项目文档
-- [framework](framework/framework.md)
-- [skycloud-base](skycloud/skycloud.md)
+- [framework](docs/framework/framework.md)
+- [skycloud-base](docs/skycloud/skycloud.md)
 
 ## 数据结构与算法
 - [algorithm](https://github.com/xk11961677/algorithm)
@@ -28,4 +28,4 @@ Java知识学习总结
 ## 其他
 - [docsify本文档制作工具](https://docsify.js.org/#/zh-cn/)
 - [Git的奇技淫巧](https://github.com/521xueweihan/git-tips)
-- [Git与Gitlab同时使用](other/git_github.md)
+- [Git与Gitlab同时使用](docs/other/git_github.md)
