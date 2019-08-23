@@ -4,7 +4,7 @@ ssh-keygen -t rsa -C "shen11961677@163.com"
 
 ssh-keygen -t rsa -C "liwei.shen@company-core.com"
 
-# 将生成的公钥分别放入git与gitlab的setting选项
+# 将公钥分别放入git与gitlab的setting选项
 
 # 增加config文件 在~/.ssh目录下
 ####### github
