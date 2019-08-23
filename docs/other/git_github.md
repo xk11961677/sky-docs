@@ -2,7 +2,7 @@
 ssh-keygen -t rsa -C "shen11961677@163.com"
 
 
-ssh-keygen -t rsa -C "liwei.shen@company-core.com"
+ssh-keygen -t rsa -C "xxxx.shen@company-core.com"
 
 # 将公钥分别放入git与gitlab的setting选项
 
@@ -26,8 +26,8 @@ git config --global user.name 'shen11961677@163.com'</br>
 git config --global user.email 'shen11961677@163.com'</br>
 
 # 设置局部用户
-git config --local user.name 'shenliwei'</br>
-git config --local user.email 'liwei.shen@company-core.com'</br>
+git config --local user.name 'shenxxxx'</br>
+git config --local user.email 'xxxx.shen@company-core.com'</br>
 
 # clone时修改对应host
 比如: git@github.com:xk11961677/skycloud-base.git</br>
