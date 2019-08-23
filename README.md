@@ -28,3 +28,4 @@ Java知识学习总结
 ## 其他
 - [docsify本文档制作工具](https://docsify.js.org/#/zh-cn/)
 - [Git的奇技淫巧](https://github.com/521xueweihan/git-tips)
+- [Git与Gitlab同时使用](other/git_github.md)
