@@ -20,7 +20,7 @@ Java知识学习总结
 
 ## 开源项目文档
 - [framework](framework/framework.md)
-- [skycloud-base](skycloud/skycloud.md)
+- [skycloud-base](skycloud-base/skycloud-base.md)
 
 ## 数据结构与算法
 - [algorithm](https://github.com/xk11961677/algorithm)
