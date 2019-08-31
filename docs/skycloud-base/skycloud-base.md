@@ -3,9 +3,9 @@
 [![license](https://img.shields.io/badge/license-MIT-ff69b4.svg)](https://mit-license.org/license.html)
 
 ## 文档地址
-- [quick-start](https://xk11961677.github.io/sky-docs/)
+- [quick-start](https://xk11961677.github.io/sky-)
 
-## 项目介绍
+### 项目介绍
 ```
 功能点：
     
@@ -31,7 +31,7 @@
 	
 	
 ```
-## 整体代码结构层
+### 整体代码结构层
 ```
 
 │  ├─framework-------------------------框架层(https://github.com/xk11961677/framework)                                          
@@ -43,7 +43,7 @@
     
 ```
 
-## 平台目录结构说明
+### 平台目录结构说明
 ```
 │
 ├─skycloud-base----------------------------父项目，公共依赖
@@ -117,7 +117,9 @@
 | 企业监控      | prometheus + grafana     | ✅    |
 | 数据迁移      | Datax                     | ✅    |
 
-分布式事物 分表分库 在POC项目中请[点我]()
+数据迁移项目代码请[点我](https://github.com/xk11961677/skycloud-datax)
+
+分布式事物 分表分库 在POC项目中请[点我](https://github.com/xk11961677/skycloud-service-example)
 
 ## 代码发布方式
 - [skycloud-base-bom](skycloud-base-bom) 
@@ -135,11 +137,62 @@
              3. deploy到的maven私服 
     -  直接修改<revision>1.0.0-SNAPSHOT</revision>属性版本 
 
+## docker 启动apollo
+```
+1. 启动consul
+
+2. 将script/db/apollo 数据库脚本导入数据
+
+3. 将docker/apollo 三个脚本修改IP地址与数据库地址 
+
+4. 按步骤运行apollo_config.sh 、apollo_admin.sh 、apollo_portal.sh
+```
+
+## docker-compose 启动方式(仅为 java项目)
+##### 前提条件 在skycloud-base根目录执行所有脚本
+```
+1. 创建镜像
+docker-compose -f docker/docker-compose.yml build
+
+2. 启动容器
+docker-compose -f docker/docker-compose.yml up -d
+
+```
+
+## 运维管理页面
+![platform](image/platform.png)
+
+
 ## FAQ
 - 在使用中有任何问题，欢迎反馈
-- [apollo修改后源码](https://pan.baidu.com/s/1n8oIm-9UaxNZPUTyID02OQ) 提取码: 6fxr
+- [apollo-consul源码与部署包](https://pan.baidu.com/s/1s7tXv1uXBdWGxL84Ha5tFw) 提取码: xbdw
 - [apollo数据库](script/db/apollo)
 
 ## 架构图
 
 ![架构图](image/architecture_diagram.jpg)
+
+## 关于作者
+
+## [LICENSE](LICENSE)
+
+The MIT License (MIT)
+Copyright © 2019 sky
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the “Software”), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
