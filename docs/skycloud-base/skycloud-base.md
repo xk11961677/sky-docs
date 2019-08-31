@@ -137,9 +137,20 @@
              3. deploy到的maven私服 
     -  直接修改<revision>1.0.0-SNAPSHOT</revision>属性版本 
 
+## docker 启动consul
+```
+1. 脚本位置: docker/consul/docker-compose.yml
+
+2. 启动命令: docker-compose up -d
+
+3. 停止命令: docker-compose stop
+
+4. 查看集群信息: docker exec -t node1 consul members
+```
+
 ## docker 启动apollo
 ```
-1. 启动consul
+1. 启动consul前提下
 
 2. 将script/db/apollo 数据库脚本导入数据
 
@@ -174,7 +185,7 @@ docker-compose -f docker/docker-compose.yml up -d
 
 ## 关于作者
 
-## [LICENSE](LICENSE)
+## LICENSE
 
 The MIT License (MIT)
 Copyright © 2019 sky
