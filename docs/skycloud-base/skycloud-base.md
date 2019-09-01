@@ -7,7 +7,7 @@
 ![helloworld](https://img.shields.io/badge/hello-world-blue)
 
 ## 文档地址
-- [quick-start](https://xk11961677.github.io/sky-)
+- [quick-start](https://xk11961677.github.io/sky-docs)
 
 ### 项目介绍
 ```
