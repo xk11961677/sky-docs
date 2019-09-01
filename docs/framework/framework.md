@@ -1,7 +1,12 @@
 ## 介绍
 ### framework
 [![Build Status](https://travis-ci.org/xk11961677/framework.svg?branch=master)](https://travis-ci.org/xk11961677/framework)
-[![license](https://img.shields.io/badge/license-MIT-ff69b4.svg)](https://mit-license.org/license.html)
+[![license](https://img.shields.io/badge/license-mit-ff69b4.svg)](https://mit-license.org/license.html)
+[![springboot](https://img.shields.io/badge/springboot-2.1.4.RELEASE-orange.svg)](https://spring.io/projects/spring-boot)
+![Gitter](https://img.shields.io/gitter/room/sky-docs/community)
+![version](https://img.shields.io/badge/version-1.0.0-blueviolet.svg)
+![helloworld](https://img.shields.io/badge/hello-world-blue)
+
 ### 版本管理
     - 版本号：<主版本>.<次版本>.<增量版本>-<代号>
     - 直接修改<revision>1.0.0-SNAPSHOT</revision>属性版本 

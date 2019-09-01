@@ -1,6 +1,6 @@
 ## Sky Cloud 项目
 [![Build Status](https://travis-ci.org/xk11961677/skycloud-base.svg?branch=master)](https://travis-ci.org/xk11961677/skycloud-base)
-[![license](https://img.shields.io/badge/license-MIT-ff69b4.svg)](https://mit-license.org/license.html)
+[![license](https://img.shields.io/badge/license-mit-ff69b4.svg)](https://mit-license.org/license.html)
 [![springcloud](https://img.shields.io/badge/springcloud-greenwich-orange.svg)](https://spring.io/projects/spring-cloud)
 ![Gitter](https://img.shields.io/gitter/room/sky-docs/community)
 ![version](https://img.shields.io/badge/version-1.0.0-blueviolet.svg)
