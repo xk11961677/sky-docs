@@ -2,7 +2,7 @@
 
 Java知识学习总结
 
-[![码云](https://img.shields.io/badge/Gitee-%E7%A0%81%E4%BA%91-yellow.svg)](https://gitee.com/slw/)
+[![码云](https://img.shields.io/badge/Gitee-%E7%A0%81%E4%BA%91-yellow.svg)](https://gitee.com/xk11961677/)
 [![Github](https://img.shields.io/badge/Github-Github-red.svg)](https://github.com/xk11961677)
 
 ## 关于
